@@ -1,0 +1,65 @@
+/* small phone*/
+@media only screen and (max-width:480px){
+    section{
+        padding: 25px 0;
+    }
+   .cantact-form{
+    width: 100%;
+   }    
+}
+/* small phone to small tablet*/
+@media only screen and (max-width:767px){
+    body{
+        font-size: 16px;
+    }
+    section{
+        padding: 30px 0px;
+    }
+    .row,
+    .hero_txt_box{padding: 0 4%;}
+    .col{
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    .main-nav{display: none;}
+    .app-screen{width: 10%;}
+    .steps-box:first-child{text-align: center;}
+    .work-step div{
+ height: 40px;
+ width: 6%;
+ margin-left: 15px;
+ padding: 4px;
+ font-size: 120%;
+    }
+}
+@media only screen and (max-width:900px){
+
+    .footer-nav{
+        width: 100%;
+    }
+}
+
+/* small tablet to big tablet*/
+@media only screen and (max-width:1023px){
+    
+    .long-copy{width: 80%;margin-left: 10%; }
+    body{font-size: 18px;}
+    section{padding: 60px 0;}
+    .app-screen{width: 50%;}
+    .steps-box{margin-top: 10px;}
+    
+   /* 
+    .steps-box:last-child{margin-top: 10px;}
+    .work-step{margin-bottom:40px;}
+    .icon-small{width: 17px; margin-right:5px;}
+    
+   */
+}
+/* big tablet 1200px*/
+@media only screen and (max-width:1200px){
+    .hero_txt_box{
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row{padding: 0 2%;}
+}
